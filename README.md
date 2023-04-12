@@ -1,7 +1,8 @@
-#X11 setup (DXVK) for exagear
+# X11 setup (DXVK) for exagear
+
 this is a simple script to setup X11 environment on Termux X11
 
-#special thanks
+# special thanks
 
 [Herick75](https://github.com/Herick75/Box4Droid)
 for the codes
