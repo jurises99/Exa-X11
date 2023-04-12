@@ -1,3 +1,6 @@
+#X11 setup (DXVK) for exagear
+this is a simple script to setup X11 environment on Termux X11
+
 #special thanks
 
 [Herick75](https://github.com/Herick75/Box4Droid)
@@ -10,13 +13,6 @@ First you need to install [Termux](https://f-droid.org/en/packages/com.termux) a
 # How to start X11?
 
 just type "x11" without qoute
-# System requirements 
-
-*Adreno 618+ (Except on adreno 7xx GPUS)
-
-*Android 10+??  
-
-*64-bit Android 
 
 # known issues
 
@@ -25,10 +21,6 @@ For some reason, when you go to install Termux and use the `pkg update -y` comma
 ![Screenshot](Docs/InShot_20230402_231621771.jpg)
 
 And there are probably other issues, so feel free to open an issue.
-
-# Things to note
-
-Some issues/instabilities can happen when using Box86 in proot environment, so it's not recommended to use Box86 in proot as debug/testing environment, there are better options for that.
 
 # Third party applications
 
