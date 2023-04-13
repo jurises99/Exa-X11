@@ -2,7 +2,6 @@
 
 while true; do
 clear
-echo " Por favor, selecione uma resolucão para o Xvfb :"
 echo ""
 echo " Please select a resolution for Xvfb :"
 echo ""
