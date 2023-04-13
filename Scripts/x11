@@ -1,5 +1,5 @@
 #!/bin/bash
-DISPLAY=:1 termux-x11 &>/dev/null & env DISPLAY=:1 taskset -c 4-7 Xvfb -listen tcp :1 -ac -screen 0 1400x600x24 &>/dev/null
+DISPLAY=:1 termux-x11 &>/dev/null & env DISPLAY=:1 taskset -c 4-7 Xvfb -listen tcp :1 -ac -screen 0 1400x600x24
 clear
 echo ""
 echo ""
