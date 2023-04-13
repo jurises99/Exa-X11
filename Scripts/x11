@@ -33,8 +33,4 @@ echo ""
     esac
 done
 echo $res
-DISPLAY=:1 termux-x11 &>/dev/null & env DISPLAY=:1 taskset -c 4-7 Xvfb -listen tcp :1 -ac -screen 0 $res &>/dev/null
-clear
-echo ""
-echo ""
-echo -e "Termux-x11 started."
+DISPLAY=:1 termux-x11 &>/dev/null & env DISPLAY=:1 taskset -c 4-7 Xvfb -listen tcp :1 -ac -screen 0 $res
