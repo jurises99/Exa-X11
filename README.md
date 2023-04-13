@@ -1,6 +1,6 @@
 # X11 setup (DXVK) for exagear
 
-this is a simple script to setup X11 environment on Termux X11
+this is a simple script to setup Termux X11 environment on Termux
 
 # special thanks
 
