@@ -20,7 +20,7 @@ echo -e " Script installed."
 echo ""
 echo -e " Installing additional packages..."
 echo ""
-pkg install xorg-server-xvfb wget xwayland -y
+pkg install xorg-server-xvfb wget -y
 echo ""
 echo ""
 echo -e " Downloading and installing the Termux-x11 package..."
